@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Add Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="seta">
+        <svg
+          width="7"
+          height="12"
+          viewBox="0 0 7 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 11L1 6L6 1"
+            stroke="#181C2E"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <h3>Pagamentos</h3>
+    </header>
+    <main>
+      <form action="">
+        <div class="inputs">
+            
+          <p>NOME DO TITULAR</p>
+          <input
+            type="text"
+            name="NOME DO TITULAR"
+            placeholder="Nome do titular"
+            required
+          />
+        </div>
+
+        <div class="inputs">
+          <p>NÚMERO DO CARTÃO</p>
+          <input
+            type="text"
+            name="NÚMERO DO CARTÃO"
+            placeholder="**** **** **** ****"
+            maxlength="19"
+            required
+          />
+        </div>
+
+        <div class="infoDow">
+          <div class="inputs">
+            <p>VENCIMENTO</p>
+            <input
+              type="text"
+              name="VENCIMENTO"
+              placeholder="mm/yyyy"
+              maxlength="6"
+              required
+            />
+          </div>
+          <div class="inputs">
+            <p>CVV</p>
+            <input
+              type="text"
+              name="CVV"
+              placeholder="***"
+              maxlength="3"
+              required
+            />
+          </div>
+        </div>
+      </form>
+
+      <div class="botao">
+        <input type="submit" value="ADICIONAR NOVO CARTÃO" />
+      </div>
+    </main>
+  </body>
+</html>

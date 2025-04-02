@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sen", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #181C2E;
+    padding: 20px;
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+/* ---Div do Cartão---- */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    gap: 20px;
+   
+}
+
+.cards h3 {
+    font-size: 24px;
+    color: #32343E;
+    
+}
+
+.cards p {
+
+    font-size: 14px;
+    color: #525C67;
+    text-align: justify;
+}
+
+/* ---Botao---- */
+
+input[type="submit"] {
+    width: 100%;
+    padding: 20px 4%;
+    background-color: #FF7622;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.9;
+}

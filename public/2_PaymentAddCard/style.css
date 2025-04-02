@@ -9,7 +9,7 @@
 
 body {
     background-color: #fff;
-    color: #333;
+    color: #181C2E;
     padding: 20px;
     height: 100vh;
 }
@@ -25,6 +25,11 @@ header {
     color:#121223;
     font-size: 20px;
     cursor: pointer;
+  }
+
+  header H3{
+    color:#181C2E;
+    font-size: 17px;
   }
 
   .seta{
@@ -44,66 +49,48 @@ header {
     justify-content: space-between;
   }
   
+  /* ---fORM---- */
 
-/* ---Nav com os metodos de pagamento--- */
-
-.tipos_pagamento {
-    display: flex;
-    padding: 16px 2%;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-}
-.metodos_pagamentos{
-    width: 100%;
-}
-.metodos_pagamentos P{
-   margin: 8%;
-}
-
-
-.pagamentos{
-    padding: 16px 2%;
-    background-color: #F0F5FA;
-    border: none;
-    border-radius: 8px;
-    width: 100%;
-    height: 75px;
-}
-
-/* ---Div do Cartão---- */
-
-.cards {
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70%;
-    text-align: center;
-    background: #F7F8F9;
-    border-radius: 10px;
-    padding: 20px 2%;
-    margin-bottom: 10px;
     gap: 10px;
-   
+    padding: 16px 2%;
+
 }
 
-.cards h3 {
+form p{
+  font-size: 14px;
+  color: #A0A5BA;
+  
+}
+
+form input{
+ width: 100%;
+ padding: 20px 4%;
+ border-radius: 8px;
+ outline: none;
+ border: none;
+ background-color: #F0F5FA;
+}
+
+.infoDow{
+  display: flex;
+  gap: 28px;
+  
+}
+form p{
+  margin: 5%;
+ 
+}
+::placeholder {
+    color: #A0A5BA;
     font-size: 16px;
-    color: #32343E;
-    
-}
+    padding: 8px;
+    }
 
-.cards p {
+  /* ---Botao---- */
 
-    font-size: 15px;
-    color: #2D2D2D;
-    text-align: justify;
-    width: 70%;
-    
-}
-
-/* ---Botao---- */
 input[type="submit"] {
     width: 100%;
     padding: 20px 4%;
